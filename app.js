@@ -12,8 +12,14 @@ function randomSquare (){
   })
   let randomSquare = squares[Math.floor(Math.random()*9)]
   randomSquare.classList.add('mole')
-  console.log(randomPosition)
+
 }
 
-randomSquare()
+function moveMole (){
+  let timerID = null
+  timerId = setInterval(randomSquare, 500)
+
+}
+
+moveMole()
 
